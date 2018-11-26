@@ -11,7 +11,8 @@ class LandingPage extends StatelessWidget {
           child: new Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              new Text("Wow le Quizzz !", style: new TextStyle(color: Colors.white, fontSize: 50.0, fontWeight: FontWeight.bold)),
+              new Text("Un quizz Flutter", style: new TextStyle(color: Colors.white, fontSize: 50.0, fontWeight: FontWeight.bold)),
+              new Padding(padding: new EdgeInsets.all(20.0)),
               new Text("\n Tappe pour commencer !", style: new TextStyle(color: Colors.white, fontSize: 20.0, fontWeight: FontWeight.bold))
             ],
         ),

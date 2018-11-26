@@ -8,17 +8,10 @@ class Quizz {
 
   Quizz(){
     _questions = [
-      new Question("Luffy est le roi de spirates", false),
-      new Question("Pierrick est un ADC platine", true),
-      new Question("Vas tu Finir SDF ?", false),
       new Question("Flutter ça fonctionne bien ?", true),
-      new Question("César est beau ?", true),
-      new Question("Mathieu a une belle moustache ?", true),
-      new Question("Où est Michel ?", false),
-      new Question("Mais t'es où ?", true),
-      new Question("Le gras c'est la vie.", true),
-      new Question("On en a gros !", false),
-      new Question("C'est pas faux", true),
+      new Question("C'est vrai", true),
+      new Question("C'est faux", false),
+      new Question("Va créer tes propres questions maintenant", true)
     ];
     _questions.shuffle();
   }
