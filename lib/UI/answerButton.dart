@@ -19,7 +19,7 @@ class AnswerButton extends StatelessWidget{
                   border: new Border.all(color: Colors.white, width: 5.0)
                 ),
                 padding: new EdgeInsets.all(20.0),
-                child: new Text(_answer ? "True" : "False", style: new TextStyle(color: Colors.white, fontSize: 50.0, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
+                child: new Text(_answer ? "Vrai" : "Faux", style: new TextStyle(color: Colors.white, fontSize: 50.0, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               )
           ),
         ),

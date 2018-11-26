@@ -50,7 +50,7 @@ class CorrectWrongOverlayState extends State<CorrectWrongOverlay> with SingleTic
                 )
               ),
             new Padding(padding: new EdgeInsets.only(bottom: 20.0)),
-            new Text(widget._isCorrect ? "Correct !" : "Wrong !", style: new TextStyle(color: Colors.white, fontSize: 30))
+            new Text(widget._isCorrect ? "Bonne réponse !" : "Mauvaise réponse !", style: new TextStyle(color: Colors.white, fontSize: 30))
           ],
         ),
       ),

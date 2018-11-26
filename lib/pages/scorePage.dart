@@ -15,7 +15,7 @@ class ScorePage extends StatelessWidget{
       child: new Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          new Text("Your score: ", style: new TextStyle(color: Colors.white, fontSize: 50.0, fontWeight: FontWeight.bold),),
+          new Text("Ton score: ", style: new TextStyle(color: Colors.white, fontSize: 50.0, fontWeight: FontWeight.bold),),
           new Text(_score.toString() + "/" + _total.toString(), style: new TextStyle(color: Colors.white, fontSize: 50.0, fontWeight: FontWeight.bold)),
           new Padding(padding: new EdgeInsets.only(top: 50.0)),
           new Row(
